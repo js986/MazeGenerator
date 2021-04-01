@@ -8,9 +8,9 @@ function setup() {
   stepbutton = createButton('Step');
   runbutton = createButton('Run');
   resetbutton = createButton('Reset');
-  resetbutton.position(0,110);
-  stepbutton.position(50,110);
-  runbutton.position(93,110);
+  resetbutton.position(0,160);
+  stepbutton.position(50,160);
+  runbutton.position(93,160);
   resetbutton.mousePressed(drawReset);
   stepbutton.mousePressed(drawStep);
   runbutton.mousePressed(drawRun);

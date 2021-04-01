@@ -4,8 +4,8 @@ class MazeBackTrack {
     this.height = height;
     this.maze = [];
     this.stack = [];
-    this.screenHeight = 100;
-    this.screenWidth = 100;
+    this.screenHeight = 150;
+    this.screenWidth = 150;
     this.visited = 1;
     this.tileWidth = Math.floor(this.screenWidth/this.width);
     this.tileHeight = Math.floor(this.screenHeight/this.height);

@@ -3,8 +3,8 @@ class KruskalMaze {
   constructor(width, height) {
     this.width = width;
     this.height = height;
-    this.screenHeight = 100;
-    this.screenWidth = 100;
+    this.screenHeight = 150;
+    this.screenWidth = 150;
     this.start = null;
     this.end = null;
     this.maze = [];
